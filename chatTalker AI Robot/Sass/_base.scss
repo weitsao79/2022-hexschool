@@ -1,0 +1,63 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: $font-16;
+    font-weight: regular;
+    line-height: 24px;
+    color: $black;
+    
+}
+
+h2 {
+    font-size: $font-18;
+    font-weight: bold;
+    line-height: 24px;
+    color: $blue;
+}
+
+h3 {
+    font-size: $font-16 * 2;
+    font-weight: bold;
+    line-height: 46px;
+}
+
+.subtittle-01 {
+    font-size: $font-24;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.text-style-01 {
+    font-size: $font-16 * 3;
+    font-weight: bold;
+    line-height: 70px;
+}
+.text-style-02 {
+    font-size: $font-16 * 1.25;
+    font-weight: regular;
+    line-height: 29px;
+}
+
+.button-01 {
+    padding: 8px 32px;
+    border-radius: 22px;
+    font-size: $font-16;
+    font-weight: regular;
+    line-height: 24px;
+    color: $white;
+    background-color: $red;
+    &:hover {
+        background-color: lighten($red,10%);
+    }
+}

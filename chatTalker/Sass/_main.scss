@@ -3,19 +3,19 @@ body {
     margin: 0 auto;
     background: 
     url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg) scroll no-repeat top right / 64%, 
-    url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg) scroll no-repeat -25% 60% ;
+    url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg) scroll no-repeat -222px 589px ;
 }
 header {
     margin-bottom: 30px;
     img {
         max-height: 40px;
     }
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 140px;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 140px;
+    }
 }
 main {
     padding: 0px 139px;
@@ -134,5 +134,99 @@ main {
             margin-bottom: 36px;
         }
     }
-    
+}
+.praise {
+    margin-bottom: 100px;
+    h3 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    ul {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    .p_card {
+        max-width: 33.33333%;
+        position: relative;
+    }
+    .user_photo {
+        max-width: 80px;
+        border-radius: 100%;
+        position: absolute;
+        left: 32px;
+    }
+    .p_info {
+        margin-top: 56px;
+        padding: 48px 32px 32px 24px;
+    }
+    .p_txt {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #DDDDDD;
+    }
+    .p_job {
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .user_name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .star {
+        display: flex;
+        gap: 8px;
+        img {
+            max-width: 16px;
+        }
+    }
+    .dots {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+    .dot_s {
+        width: 10px;
+        height: 10px;
+        background-color: #DDDDDD;
+        border-radius: 100%;
+    }
+    .dot_l {
+        width: 16px;
+        height: 10px;
+        background-color: #FFD153;
+        border-radius: 50px;
+    }
+}
+.footer {
+    background: 
+    url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg) scroll no-repeat top / 100%;
+    h3 {
+        padding-top: 260px;
+        padding-bottom: 48px;
+        text-align: center;
+    }
+    a {
+        margin: 0 auto 100px auto;
+    }
+    .copyright {
+        padding: 16px;
+        text-align: center;
+        background-color: #F5F5F5;
+    }
+}
+@media (max-width:375px) {
+    header {
+        margin-bottom: 0px;
+        img {
+        max-height: 20px;
+        }
+        .navbar {
+            padding: 16px 20px;
+        }
+    }
+    main {
+        padding: 0px 20px;
+    }
 }

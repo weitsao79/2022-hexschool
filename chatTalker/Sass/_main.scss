@@ -216,17 +216,4 @@ main {
         background-color: #F5F5F5;
     }
 }
-@media (max-width:375px) {
-    header {
-        margin-bottom: 0px;
-        img {
-        max-height: 20px;
-        }
-        .navbar {
-            padding: 16px 20px;
-        }
-    }
-    main {
-        padding: 0px 20px;
-    }
-}
+

@@ -475,19 +475,4 @@ main {
   text-align: center;
   background-color: #F5F5F5;
 }
-
-@media (max-width: 375px) {
-  header {
-    margin-bottom: 0px;
-  }
-  header img {
-    max-height: 20px;
-  }
-  header .navbar {
-    padding: 16px 20px;
-  }
-  main {
-    padding: 0px 20px;
-  }
-}
 /*# sourceMappingURL=all.css.map */

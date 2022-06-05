@@ -59,6 +59,7 @@ table {
 }
 
 a {
+  font-family: "Noto Sans TC", sans-serif;
   text-decoration: none;
 }
 
@@ -68,6 +69,7 @@ img {
 }
 
 p {
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -75,6 +77,7 @@ p {
 }
 
 h2 {
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -82,6 +85,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 46px;
@@ -164,7 +168,6 @@ body {
   max-width: 1366px;
   margin: 0 auto;
   background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg) scroll no-repeat top right/64%, url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg) scroll no-repeat -222px 589px;
-  font-family: 'Noto Sans TC', sans-serif;
 }
 
 header {
